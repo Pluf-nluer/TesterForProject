@@ -1,0 +1,69 @@
+/* style.css */
+main {
+    width: 1200px;
+    background: blue;
+    margin: auto;
+    text-align: center;
+}
+main header {
+    height: 100px;
+}
+main nav {
+    height: 50px;
+    background: green;
+}
+main .content {
+    min-height: 100px;
+    background: yellow;
+}
+main .content #a {
+    float: left;
+    width: 200px;
+    background: pink;
+    height: 100px;
+}
+main footer {
+    height: 50px;
+    background: red;
+}
+.ex2 {
+    gap: 10px;
+    border: 1px solid #000;
+    width:900px;
+    margin: auto;
+    margin-top: 50px;
+}
+.ex2 .hs {
+    background: brown;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ex2 .os .grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  height: 420px;
+  justify-self: center;
+  
+}
+.ex2 .os .grid .service {
+  border: 1px solid #fff;
+  background: gray;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.ex2 .os .footers {
+    height: 120px;
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
